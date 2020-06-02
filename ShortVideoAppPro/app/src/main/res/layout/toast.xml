@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <com.example.shortvideoapppro.CircleImageView
+        android:id="@+id/iv_toast"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/smile" />
+
+    <TextView
+        android:id="@+id/tv_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="休息一下"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/iv_toast"
+        />
+
+</RelativeLayout>
